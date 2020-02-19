@@ -1,0 +1,18 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: #002060;
+    margin: 0;
+    border-bottom: 5px solid #7F7F7F;
+}
+p{
+    margin:0;
+    padding: 1% 0;
+    color: white;
+}
