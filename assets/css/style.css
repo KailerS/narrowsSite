@@ -1,8 +1,12 @@
 body {
     background-image: url("../images/background.jpg");
-    background-position: center;
-    background-position-y: bottom;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-position: top;
+    background-position-y: 50px;
+    background-size: 50%;
+    background-color: #002060;
 }
 
 header {
@@ -15,4 +19,25 @@ p{
     margin:0;
     padding: 1% 0;
     color: white;
+}
+#container {
+    margin: 450px auto;
+    background-color: white;
+    width: 75%;
+    border: 5px solid #7F7F7F;
+    border-radius: 5%;
+    min-height: 700px;
+    overflow: hidden;
+}
+
+#welcomeBox {
+    display: flex;
+    justify-content:space-around;
+    color: #002060;
+    overflow: hidden;
+}
+
+img {
+    margin: 1% 0;
+    background-color: white;
 }
